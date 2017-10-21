@@ -587,6 +587,13 @@ $palette-blue-grey-700: nth($palette-blue-grey, 8);
 $palette-blue-grey-800: nth($palette-blue-grey, 9);
 $palette-blue-grey-900: nth($palette-blue-grey, 10);
 
+$palette-kpter:
+"33,183,182"
+"18,163,162";
+
+$palette-kpter-500: nth($palette-kpter, 1);
+$palette-kpter-700: nth($palette-kpter, 2);
+
 $color-black: "0,0,0";
 $color-white: "255,255,255";
 
