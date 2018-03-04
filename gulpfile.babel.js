@@ -90,7 +90,9 @@ const SOURCES = [
   'src/layout/layout.js',
   'src/data-table/data-table.js',
   // And finally, the ripples
-  'src/ripple/ripple.js'
+  'src/ripple/ripple.js',
+  'src/selectfield/selectfield.js'
+
 ];
 
 // ***** Development tasks ****** //
@@ -98,6 +100,7 @@ const SOURCES = [
 // Lint JavaScript
 gulp.task('lint', () => {
   return gulp.src([
+      '!src/selectfield/selectfield.js',  // FIXME through lint
       'src/**/*.js',
       'gulpfile.babel.js'
     ])
